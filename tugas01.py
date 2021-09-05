@@ -6,5 +6,5 @@ for i in websites:
     driver.minimize_window()
     driver.get(i)
     title = i.split("/",2)
-    print(title[2]," - ",driver.title)
+    print(title[2], " - ", driver.title)
     driver.close
