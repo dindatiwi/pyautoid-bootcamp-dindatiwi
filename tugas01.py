@@ -5,6 +5,6 @@ websites = ["https://noobtest.id","https://erzaf.com","https://orangsiber.com","
 for i in websites:
     driver.minimize_window()
     driver.get(i)
-    title = i.split("/",2)
+    title = i.split("/")
     print(title[2], " - ", driver.title)
     driver.close
